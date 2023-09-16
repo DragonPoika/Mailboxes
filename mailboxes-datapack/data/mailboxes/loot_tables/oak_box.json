@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{item:\"replace_oak_box\"}}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}
