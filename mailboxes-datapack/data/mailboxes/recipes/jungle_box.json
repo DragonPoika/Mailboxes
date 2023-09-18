@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "---",
+      "DOD",
+      " I "
+    ],
+    "key": {
+      "-": {
+        "item": "minecraft:jungle_slab"
+      },
+      "D": {
+        "item": "minecraft:jungle_planks"
+      },
+      "O": {
+        "item": "minecraft:chest"
+      },
+      "I": {
+        "item": "minecraft:jungle_fence"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
+  

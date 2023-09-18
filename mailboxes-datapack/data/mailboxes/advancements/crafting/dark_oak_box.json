@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mailboxes:dark_oak_box"
+      }
+    }
+  },
+  "rewards": {
+    "function": "mailboxes:crafting/dark_oak_box",
+    "loot": [
+      "mailboxes:dark_oak_box"
+    ]
+  }
+} 

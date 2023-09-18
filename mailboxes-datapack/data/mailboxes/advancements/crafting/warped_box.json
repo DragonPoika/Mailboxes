@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mailboxes:warped_box"
+      }
+    }
+  },
+  "rewards": {
+    "function": "mailboxes:crafting/warped_box",
+    "loot": [
+      "mailboxes:warped_box"
+    ]
+  }
+} 
