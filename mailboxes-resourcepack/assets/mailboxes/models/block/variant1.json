@@ -1,10 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
-	"textures": {
-		"1": "mailboxes:block/oak",
-		"particle": "mailboxes:block/oak"
-	},
 	"elements": [
 		{
 			"from": [6, 0, 6],

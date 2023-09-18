@@ -1,5 +1,5 @@
 {
-	"parent": "mailboxes:block/variant1",
+	"parent": "mailboxes:block/variant2",
 	"textures": {
 	  "texture": "mailboxes:block/acacia"
 	}
