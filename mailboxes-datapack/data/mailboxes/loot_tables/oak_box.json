@@ -1,20 +1,20 @@
 {
-    "type": "minecraft:advancement_reward",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:furnace",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:1,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{item:\"replace_oak_box\"}}]}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:318000,display:{Name:'{\"text\":\"Oak Mailbox\",\"italic\":false}'},BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:318000,replace_mailbox:1b,mailbox:\"oak_box\",display:{Name:'{\"text\":\"Oak Mailbox\",\"italic\":false}'},BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:318000,replace_mailbox:1b,mailbox:\"oak_box\",display:{Name:'{\"text\":\"Oak Mailbox\",\"italic\":false}'}}}]}}}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

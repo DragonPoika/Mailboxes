@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "---",
+      "DOD",
+      " I "
+    ],
+    "key": {
+      "-": {
+        "item": "minecraft:dark_oak_slab"
+      },
+      "D": {
+        "item": "minecraft:dark_oak_planks"
+      },
+      "O": {
+        "item": "minecraft:chest"
+      },
+      "I": {
+        "item": "minecraft:dark_oak_fence"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
+  
