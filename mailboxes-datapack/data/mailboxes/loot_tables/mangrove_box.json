@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:318007,display:{Name:'{\"text\":\"Mangrove Mailbox\",\"italic\":false}'},BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:318007,replace_mailbox:1b,mailbox:\"mangrove_box\"}}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

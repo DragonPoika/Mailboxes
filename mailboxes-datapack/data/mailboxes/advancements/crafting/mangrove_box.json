@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mailboxes:mangrove_box"
+      }
+    }
+  },
+  "rewards": {
+    "function": "mailboxes:crafting/mangrove_box",
+    "loot": [
+      "mailboxes:mangrove_box"
+    ]
+  }
+} 
