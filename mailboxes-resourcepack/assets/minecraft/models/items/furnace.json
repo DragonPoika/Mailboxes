@@ -8,19 +8,19 @@
           "predicate": {
             "custom_model_data": 318000
           },
-        "model": "mailboxes:blocks/variant1"
+        "model": "mailboxes:block/variant1"
       },
       {
           "predicate": {
             "custom_model_data": 318001
           },
-        "model": "mailboxes:blocks/variant1"
+        "model": "mailboxes:block/variant1"
       },
       {
           "predicate": {
             "custom_model_data": 318002
           },
-        "model": "mailboxes:blocks/variant1"
+        "model": "mailboxes:block/variant1"
       }
     ]
   }
