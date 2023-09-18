@@ -1,0 +1,6 @@
+{
+	"parent": "mailboxes:block/variant3",
+	"textures": {
+	  "1": "mailboxes:block/bamboo"
+	}
+  }
