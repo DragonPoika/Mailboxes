@@ -1,6 +1,6 @@
 {
 	"parent": "mailboxes:block/variant1",
 	"textures": {
-	  "texture": "mailboxes:block/oak"
+	  "1": "mailboxes:block/oak"
 	}
   }

@@ -1,0 +1,74 @@
+{
+    "parent": "block/furnace",
+    "textures": {
+      "layer0": "block/furnace"
+    },
+    "overrides": [
+      {
+          "predicate": {
+            "custom_model_data": 318000
+          },
+        "model": "mailboxes:block/acacia"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318001
+          },
+        "model": "mailboxes:block/bamboo"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318002
+          },
+        "model": "mailboxes:block/birch"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318003
+          },
+        "model": "mailboxes:block/cherry"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318004
+          },
+        "model": "mailboxes:block/crimson"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318005
+          },
+        "model": "mailboxes:block/dark_oak"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318006
+          },
+        "model": "mailboxes:block/jungle"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318007
+          },
+        "model": "mailboxes:block/mangrove"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318008
+          },
+        "model": "mailboxes:block/oak"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318009
+          },
+        "model": "mailboxes:block/spruce"
+      },
+      {
+          "predicate": {
+            "custom_model_data": 318010
+          },
+        "model": "mailboxes:block/warped"
+      }
+    ]
+  }
