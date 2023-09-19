@@ -23,16 +23,16 @@
               "lore": [
                 [
                   {
-                    "translate": "lore.sforms.tooltip",
+                    "translate": "lore.mailboxes.tooltip",
                     "color": "white",
-                    "font": "sforms:tooltip",
+                    "font": "mailboxes:tooltip",
                     "italic": false
                   },
                   {
                     "text": " "
                   },
                   {
-                    "translate": "pack.sforms",
+                    "translate": "pack.mailboxes",
                     "color": "#6a3b89",
                     "font": "minecraft:default",
                     "italic": true
