@@ -1,0 +1,15 @@
+{
+    "pack.mailboxes": "Mailboxes",
+    "lore.mailboxes.tooltip": "\ua000",
+
+    "item.mailboxes.acacia_box": "Acacia Mailbox",
+    "item.mailboxes.bamboo_box": "Bamboo Mailbox",
+    "item.mailboxes.birch_box": "Birch Mailbox",
+    "item.mailboxes.crimson_box": "Crimson Mailbox",
+    "item.mailboxes.dark_oak_box": "Dark Oak Mailbox",
+    "item.mailboxes.jungle_box": "Jungle Mailbox",
+    "item.mailboxes.mangrove_box": "Mangrove Mailbox",
+    "item.mailboxes.oak_box": "Oak Mailbox",
+    "item.mailboxes.spruce_box": "Spruce Mailbox",
+    "item.mailboxes.warped_box": "Warped Mailbox"
+}
