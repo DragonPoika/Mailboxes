@@ -15,7 +15,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.mailboxes.bamboo_box"
+                "translate": "item.mailboxes.bamboo_box",
+                "italic": false
               }
             },
             {

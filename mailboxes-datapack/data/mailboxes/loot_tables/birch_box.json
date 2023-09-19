@@ -15,7 +15,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.mailboxes.birch_box"
+                "translate": "item.mailboxes.birch_box",
+                "italic": false
               }
             },
             {

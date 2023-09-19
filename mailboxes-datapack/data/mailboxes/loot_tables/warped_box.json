@@ -15,7 +15,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.mailboxes.warped_box"
+                "translate": "item.mailboxes.warped_box",
+                "italic": false
               }
             },
             {

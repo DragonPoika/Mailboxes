@@ -15,7 +15,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.mailboxes.oak_box"
+                "translate": "item.mailboxes.oak_box",
+                "italic": false
               }
             },
             {

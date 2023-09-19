@@ -15,7 +15,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.mailboxes.acacia_box"
+                "translate": "item.mailboxes.crimson_box",
+                "italic": false
               }
             },
             {

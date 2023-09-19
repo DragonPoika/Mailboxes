@@ -15,7 +15,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.mailboxes.mangrove_box"
+                "translate": "item.mailboxes.mangrove_box",
+                "italic": false
               }
             },
             {
