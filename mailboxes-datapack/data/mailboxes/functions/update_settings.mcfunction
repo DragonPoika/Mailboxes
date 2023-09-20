@@ -1,0 +1,1 @@
+execute if score @s mailbox.settings matches 2001
