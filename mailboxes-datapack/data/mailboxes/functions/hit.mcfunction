@@ -1,3 +1,4 @@
+execute on attacker if entity @s[gamemode=creative] run scoreboard players set @e[type=interaction,tag=mailbox_interaction,limit=1,sort=nearest] mailbox.hit 2
 scoreboard players add @s mailbox.hit 1
 execute if score @s mailbox.hit matches 3.. as @e[type=item_display,tag=mailbox_display,limit=1,sort=nearest] at @s run function mailboxes:break
 execute if score @s mailbox.hit matches 3.. if score @s mailbox.itemcount matches 1.. run tag @e[type=marker,tag=mailbox_storage,limit=1,sort=nearest] add empty_fully
