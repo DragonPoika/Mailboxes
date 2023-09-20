@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:318000,BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:318005,replace_mailbox:1b,mailbox:\"dark_oak_box\"}}]}}"
+              "tag": "{CustomModelData:318005,BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:318005,replace_mailbox:1b,mailbox:\"dark_oak_box\"}}]}}"
             },
             {
               "function": "minecraft:set_name",
