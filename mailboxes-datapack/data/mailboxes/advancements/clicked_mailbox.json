@@ -35,7 +35,7 @@
             "scores": {
               "mailbox.itemcount": {
                 "min": 0,
-                "max": 15
+                "max": 3
               }
             }
           },

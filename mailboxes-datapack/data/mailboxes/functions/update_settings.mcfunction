@@ -1,1 +1,21 @@
-execute if score @s mailbox.settings matches 2001
+execute if score @s mailbox.settings matches 2001 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to an End Rod.\n\n","color":"gray"}
+execute if score @s mailbox.settings matches 2001 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s run setblock ~ ~ ~ end_rod
+execute if score @s mailbox.settings matches 2002 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to Air.\n\n","color":"gray"}
+execute if score @s mailbox.settings matches 2002 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s run setblock ~ ~ ~ air
+execute if score @s mailbox.settings matches 2003 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to a Fence.\n\n","color":"gray"}
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Acacia Mailbox"}'}}}}] run setblock ~ ~ ~ acacia_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Bamboo Mailbox"}'}}}}] run setblock ~ ~ ~ bamboo_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Birch Mailbox"}'}}}}] run setblock ~ ~ ~ birch_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Cherry Mailbox"}'}}}}] run setblock ~ ~ ~ cherry_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Crimson Mailbox"}'}}}}] run setblock ~ ~ ~ crimson_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Dark Oak Mailbox"}'}}}}] run setblock ~ ~ ~ dark_oak_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Jungle Mailbox"}'}}}}] run setblock ~ ~ ~ jungle_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Mangrove Mailbox"}'}}}}] run setblock ~ ~ ~ mangrove_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Oak Mailbox"}'}}}}] run setblock ~ ~ ~ oak_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Spruce Mailbox"}'}}}}] run setblock ~ ~ ~ spruce_fence
+execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Warped Mailbox"}'}}}}] run setblock ~ ~ ~ warped_fence
+scoreboard players reset @s mailbox.settings
+tag @e remove settings_open
+tag @s remove mailbox.settings
+scoreboard players reset @s mailbox.settings
+playsound minecraft:entity.player.levelup block @s ~ ~ ~ 1 2
