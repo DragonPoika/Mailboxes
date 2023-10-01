@@ -1,5 +1,4 @@
 advancement revoke @s only mailboxes:open_settings
-advancement revoke @s only mailboxes:open_settings_sneaking
 tag @s add mailbox.this_settings
 tag @s add mailbox.settings
 scoreboard players enable @s mailbox.settings
