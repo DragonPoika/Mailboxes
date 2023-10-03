@@ -1,4 +1,5 @@
 advancement revoke @s only mailboxes:open_settings
+# execute if predicate mailboxes:holding_allowed run return 0
 tag @s add mailbox.this_settings
 tag @s add mailbox.settings
 scoreboard players enable @s mailbox.settings

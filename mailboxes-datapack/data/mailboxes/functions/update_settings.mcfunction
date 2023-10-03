@@ -1,8 +1,11 @@
 execute if score @s mailbox.settings matches 2001 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to an End Rod.\n\n","color":"gray"}
+execute if score @s mailbox.settings matches 2001 run scoreboard players set @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] mailbox.settings 0
 execute if score @s mailbox.settings matches 2001 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s run setblock ~ ~ ~ end_rod
 execute if score @s mailbox.settings matches 2002 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to Air.\n\n","color":"gray"}
+execute if score @s mailbox.settings matches 2002 run scoreboard players set @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] mailbox.settings 0
 execute if score @s mailbox.settings matches 2002 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s run setblock ~ ~ ~ air
 execute if score @s mailbox.settings matches 2003 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to a Fence.\n\n","color":"gray"}
+execute if score @s mailbox.settings matches 2003 run scoreboard players set @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] mailbox.settings 1
 execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Acacia Mailbox"}'}}}}] run setblock ~ ~ ~ acacia_fence
 execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Bamboo Mailbox"}'}}}}] run setblock ~ ~ ~ bamboo_fence
 execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Birch Mailbox"}'}}}}] run setblock ~ ~ ~ birch_fence

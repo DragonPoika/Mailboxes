@@ -8,6 +8,7 @@ summon interaction ~ ~-0.5 ~ {Tags:["mailbox_interaction"],height:1.4,width:0.5}
 summon marker ~ ~-0.5 ~ {Tags:["mailbox_storage"]}
 scoreboard players set @e[type=marker,tag=mailbox_storage,limit=1,sort=nearest] mailbox.itemcount 0
 scoreboard players set @e[type=interaction,tag=mailbox_interaction,limit=1,sort=nearest] mailbox.itemcount 0
+scoreboard players set @e[type=interaction,tag=mailbox_interaction,limit=1,sort=nearest] mailbox.settings 1
 execute if block ~ ~ ~ furnace{Items:[{tag:{display:{Name:'{"text":"Acacia Mailbox"}'}}}]} run setblock ~ ~ ~ acacia_fence
 execute if block ~ ~ ~ furnace{Items:[{tag:{display:{Name:'{"text":"Bamboo Mailbox"}'}}}]} run setblock ~ ~ ~ bamboo_fence
 execute if block ~ ~ ~ furnace{Items:[{tag:{display:{Name:'{"text":"Birch Mailbox"}'}}}]} run setblock ~ ~ ~ birch_fence
