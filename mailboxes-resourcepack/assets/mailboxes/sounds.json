@@ -1,0 +1,67 @@
+{
+    "block.mailboxes.take_out": {
+        "sounds": [
+            {
+              "name": "block/mailbox/take_out_0",
+              "weight": 10
+            },
+            {
+              "name": "block/mailbox/take_out_1",
+              "weight": 10
+            },
+            {
+              "name": "block/mailbox/take_out_2",
+              "weight": 10
+            }
+        ]
+    },
+    "block.mailboxes.put_in": {
+        "sounds": [
+            {
+              "name": "block/mailbox/put_in_0",
+              "weight": 10
+            },
+            {
+              "name": "block/mailbox/put_in_1",
+              "weight": 10
+            },
+            {
+              "name": "block/mailbox/put_in_2",
+              "weight": 10
+            }
+        ]
+    },
+    "block.mailboxes.full": {
+        "sounds": [
+            {
+              "name": "block/mailbox/full_0",
+              "weight": 10
+            },
+            {
+              "name": "block/mailbox/full_1",
+              "weight": 10
+            }
+        ]
+    },
+    "block.mailboxes.open": {
+        "sounds": [
+            {
+                "name": "block/mailbox/open"
+            }
+        ]
+    },
+    "block.mailboxes.close": {
+        "sounds": [
+            {
+                "name": "block/mailbox/close"
+            }
+        ]
+    },
+    "block.mailboxes.notification": {
+        "sounds": [
+            {
+                "name": "block/mailbox/mailbox_notification"
+            }
+        ]
+    }
+}
