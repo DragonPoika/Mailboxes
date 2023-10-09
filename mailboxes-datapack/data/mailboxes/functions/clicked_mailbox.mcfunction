@@ -5,4 +5,6 @@ execute as @e[type=interaction,tag=mailbox_interaction,distance=..6] if data ent
 execute as @e[type=interaction,tag=mailbox_interaction,distance=..6] if data entity @s interaction run data remove entity @s interaction
 data modify entity @e[type=marker,tag=mailbox_storage,limit=1,sort=nearest] data.Mail append from entity @a[tag=mailbox.this,distance=..6,limit=1,sort=nearest] SelectedItem
 item replace entity @s weapon.mainhand with air
+playsound mailboxes:block.mailboxes.put_in block @a ~ ~ ~ 1 1
 tag @a remove mailbox.this
+tag @s add mailbox.notifi

@@ -1,5 +1,6 @@
 execute if entity @s[tag=empty_fully] run summon item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b,tag:{mailbox_remove:1b}},PickupDelay:9999s}
 execute if entity @s[tag=!empty_fully] run summon armor_stand ~ ~ ~ {Tags:["mailbox_remove"]}
+execute if entity @s[tag=!empty_fully,scores={mailbox.itemcount=1..}] run playsound mailboxes:block.mailboxes.take_out block @a ~ ~ ~ 1 1
 execute if score @s[tag=empty_fully] mailbox.itemcount matches 1 run data modify entity @e[type=item,limit=1,sort=nearest,nbt={Item:{tag:{mailbox_remove:1b}}}] Item set from entity @s data.Mail[0]
 execute if score @s[tag=!empty_fully] mailbox.itemcount matches 1 run data modify entity @e[type=minecraft:armor_stand,tag=mailbox_remove,limit=1,sort=nearest] HandItems[0] set from entity @s data.Mail[0]
 execute if score @s mailbox.itemcount matches 1 run data remove entity @s data.Mail[0]
