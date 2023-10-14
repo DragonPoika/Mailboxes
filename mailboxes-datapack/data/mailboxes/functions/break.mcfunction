@@ -21,5 +21,5 @@ execute as @s[nbt={item:{tag:{mailbox:"warped_box"}}}] run particle minecraft:bl
 execute as @s[nbt={item:{tag:{mailbox:"bamboo_box"}}},tag=!no_drop] run loot spawn ~ ~ ~ loot mailboxes:bamboo_box
 execute as @s[nbt={item:{tag:{mailbox:"bamboo_box"}}}] run particle minecraft:block bamboo_planks ~ ~0.25 ~ 0.25 0.25 0.25 0 20
 data modify entity @e[type=item,tag=drop_item,limit=1,sort=nearest] Item set from entity @s item
-setblock ~ ~ ~ air
+execute unless block ~ ~ ~ piston_head run setblock ~ ~ ~ air
 kill @s

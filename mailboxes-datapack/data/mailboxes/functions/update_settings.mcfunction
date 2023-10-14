@@ -1,5 +1,5 @@
 execute if score @s mailbox.settings matches 2001 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to an End Rod.\n\n","color":"gray"}
-execute if score @s mailbox.settings matches 2001 run scoreboard players set @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] mailbox.settings 0
+execute if score @s mailbox.settings matches 2001 run scoreboard players set @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] mailbox.settings 2
 execute if score @s mailbox.settings matches 2001 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s run setblock ~ ~ ~ end_rod
 execute if score @s mailbox.settings matches 2002 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuccessfully changed the Block to Air.\n\n","color":"gray"}
 execute if score @s mailbox.settings matches 2002 run scoreboard players set @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] mailbox.settings 0
@@ -17,7 +17,6 @@ execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=set
 execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Oak Mailbox"}'}}}}] run setblock ~ ~ ~ oak_fence
 execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Spruce Mailbox"}'}}}}] run setblock ~ ~ ~ spruce_fence
 execute if score @s mailbox.settings matches 2003 as @e[type=interaction,tag=settings_open,distance=..2,sort=nearest,limit=1] at @s as @e[type=item_display,tag=mailbox_display,distance=..1,limit=1,sort=nearest,nbt={item:{tag:{display:{Name:'{"text":"Warped Mailbox"}'}}}}] run setblock ~ ~ ~ warped_fence
-scoreboard players reset @s mailbox.settings
 tag @e remove settings_open
 tag @s remove mailbox.settings
 scoreboard players reset @s mailbox.settings
