@@ -7,7 +7,7 @@ They have 4 slots that can hold paper, books and bundles.
 
 ## FAQ
 - How do I get the items?
-  - In creative you can use the command `/loot give @s loot mailboxes:blocks/...`
+  - In creative you can use the command `/loot give @s loot mailboxes:...`
   - In survival you can craft it with any woodtype from a chest, 2 planks, 3 slabs and a fence of the same type.
  
     <img width="100" alt="All the mailboxes in alphabetical order" src="https://github.com/DragonPoika/Mailboxes/assets/79696015/2701da5f-b15c-47f7-870b-8dccfc83e854">
