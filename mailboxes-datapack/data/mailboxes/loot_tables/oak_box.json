@@ -34,7 +34,7 @@
                   },
                   {
                     "translate": "pack.mailboxes",
-                    "color": "#6a3b89",
+                    "color": "#c65389",
                     "font": "minecraft:default",
                     "italic": true
                   }
