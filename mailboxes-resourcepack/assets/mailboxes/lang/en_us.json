@@ -1,6 +1,11 @@
 {
     "pack.mailboxes": "Mailboxes",
     "lore.mailboxes.tooltip": "\ua000",
+    "chat.mailboxes.load": "Thanks for downloading Mailboxes!\nIf you need help, check these links:\n",
+    "chat.mailboxes.dot": " ・ ",
+    "chat.mailboxes.links.discord": "Discord\n",
+    "chat.mailboxes.links.smithed": "Smithed\n",
+    "chat.mailboxes.links.github": "Github\n",
 
     "item.mailboxes.acacia_box": "Acacia Mailbox",
     "item.mailboxes.bamboo_box": "Bamboo Mailbox",
