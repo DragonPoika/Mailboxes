@@ -10,7 +10,7 @@ They have 4 slots that can hold paper, books and bundles.
   - In creative you can use the command `/loot give @s loot mailboxes:...`
   - In survival you can craft it with any woodtype from a chest, 2 planks, 3 slabs and a fence of the same type.
  
-    <img width="100" alt="All the mailboxes in alphabetical order" src="https://github.com/DragonPoika/Mailboxes/assets/79696015/2701da5f-b15c-47f7-870b-8dccfc83e854">
+    <img width="100" alt="Recipe" src="https://github.com/DragonPoika/Mailboxes/assets/79696015/2d40089c-0b6b-47ba-b964-e6a524195eef">
 - I can't craft the items
   - This means that the datapack isn't installed correctly. You can find installation steps [here](https://minecraft.wiki/w/Tutorials/Installing_a_data_pack).
 - When I craft them I only get a furnace
