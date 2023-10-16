@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace",
+        "nbt": "{CustomModelData:318004}"
+      },
+      "title": {
+        "translate": "advancements.mailboxes.postman"
+      },
+      "description": {
+        "translate": "advancements.mailboxes.postman.description"
+      },
+      "hidden": true
+    },
+    "parent": "mailboxes:get_mail",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

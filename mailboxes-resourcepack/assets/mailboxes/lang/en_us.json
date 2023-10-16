@@ -15,6 +15,8 @@
     "advancements.mailboxes.placed_mailbox.description": "Place a Mailbox of any type",
     "advancements.mailboxes.got_mail": "You've got mail!",
     "advancements.mailboxes.got_mail.description": "Get mail in your Mailbox",
+    "advancements.mailboxes.postman": "Postman",
+    "advancements.mailboxes.postman.description": "Fill an entire Mailbox with mail.",
 
     "item.mailboxes.acacia_box": "Acacia Mailbox",
     "item.mailboxes.bamboo_box": "Bamboo Mailbox",
