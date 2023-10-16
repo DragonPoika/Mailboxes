@@ -9,7 +9,7 @@
     "chat.mailboxes.links.github": " §nGithub\n",
 
     "advancements.mailboxes": "Mailboxes",
-    "advancements.mailboxes.description": "Adds different kinds of Mailboxes",
+    "advancements.mailboxes.description": "Adds different kinds of Mailboxes\n\n\n\n\n\n%s",
 
     "advancements.mailboxes.placed_mailbox": "Don't shoot the Messenger!",
     "advancements.mailboxes.placed_mailbox.description": "Place a Mailbox of any type",

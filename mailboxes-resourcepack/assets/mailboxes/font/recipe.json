@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "mailboxes:gui/recipe.png",
+      "ascent": 48,
+      "height": 48,
+      "chars": [
+        "\ua000"
+      ]
+    }
+  ]
+}
