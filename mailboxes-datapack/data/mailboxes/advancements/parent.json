@@ -28,5 +28,8 @@
       "trigger": "minecraft:tick",
       "conditions": {}
     }
-  }
+  },
+    "rewards": {
+      "function": "mailboxes:joined_first_time"
+    }
 }
