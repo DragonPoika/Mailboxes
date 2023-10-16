@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace",
+        "nbt": "{CustomModelData:318002}"
+      },
+      "title": {
+        "translate": "advancements.mailboxes.got_mail"
+      },
+      "description": {
+        "translate": "advancements.mailboxes.got_mail.description"
+      }
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

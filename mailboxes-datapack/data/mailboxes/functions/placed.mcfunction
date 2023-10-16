@@ -35,3 +35,5 @@ execute if score #block mailbox.settings matches 1 run execute if block ~ ~ ~ fu
 execute if score #block mailbox.settings matches 1 run execute if block ~ ~ ~ furnace{Items:[{tag:{display:{Name:'{"text":"Warped Mailbox"}'}}}]} run loot spawn ~ ~ ~ loot mailboxes:warped_box
 execute if score #block mailbox.settings matches 1 run setblock ~ ~ ~ air
 scoreboard players reset #block mailbox.settings
+
+advancement grant @s only mailboxes:placed_mailbox
