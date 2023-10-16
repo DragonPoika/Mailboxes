@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace",
+        "nbt": "{CustomModelData:318001}"
+      },
+      "title": {
+        "translate": "advancements.mailboxes"
+      },
+      "description": {
+        "translate": "advancements.mailboxes.description"
+      },
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": false,
+      "frame": "task",
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {}
+      }
+    }
+  }
+  
