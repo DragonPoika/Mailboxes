@@ -4,6 +4,8 @@ Mailboxes can be made in any woodtype.
 They have 4 slots that can hold paper, books and bundles.
 
 ![MailboxesView](https://github.com/DragonPoika/Mailboxes/assets/79696015/ac0e7ae9-9fde-454c-bac8-5bc8212a61e0)
+![MailboxesInStructures](https://github.com/DragonPoika/Mailboxes/assets/79696015/7920504c-4d33-461e-8e88-c964e210a9af)
+
 
 ## FAQ
 - How do I get the items?
