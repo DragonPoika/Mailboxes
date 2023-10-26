@@ -1,4 +1,4 @@
-execute if entity @e[type=interaction,tag=mailbox_interaction,dx=0] run scoreboard players set #block mailbox.settings 1
+execute align xyz positioned ~ ~ ~ if entity @e[type=interaction,tag=mailbox_interaction,dx=0] run scoreboard players set #block mailbox.settings 1
 execute unless score #block mailbox.settings matches 1 if block ~ ~ ~ furnace[facing=south] run summon item_display ~ ~ ~ {CustomName:'{"text":"yes"}',Tags:["mailbox_display"],item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:69420}}}
 execute unless score #block mailbox.settings matches 1 if block ~ ~ ~ furnace[facing=north] run summon item_display ~ ~ ~ {CustomName:'{"text":"yes"}',Rotation:[180.0f,0.0f],Tags:["mailbox_display"],item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:69420}}}
 execute unless score #block mailbox.settings matches 1 if block ~ ~ ~ furnace[facing=east] run summon item_display ~ ~ ~ {CustomName:'{"text":"yes"}',Rotation:[-90.0f,0.0f],Tags:["mailbox_display"],item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:69420}}}
