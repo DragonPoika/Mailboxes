@@ -1,8 +1,7 @@
 {
-    "id": "mailboxes",
-    "pack": {
-      "pack_format": 18,
-      "description": "§dMailboxes"
-    }
+  "id": "mailboxes",
+  "pack": {
+    "pack_format": 26,
+    "description": "§dAdds decorative mailboxes for storing mail"
   }
-  
+}
