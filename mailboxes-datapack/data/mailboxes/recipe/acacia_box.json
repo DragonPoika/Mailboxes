@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "---",
+      "DOD",
+      " I "
+    ],
+    "key": {
+      "-": {
+        "item": "minecraft:acacia_slab"
+      },
+      "D": {
+        "item": "minecraft:acacia_planks"
+      },
+      "O": {
+        "item": "minecraft:chest"
+      },
+      "I": {
+        "item": "minecraft:acacia_fence"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
+  

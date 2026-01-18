@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:container",
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "furnace",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_custom_data",
+                      "tag": "{replace_mailbox:1b,mailbox:\"oak_box\"}"
+                    },
+                    {
+                      "function": "minecraft:set_name",
+                      "name": "{\"text\":\"oak Mailbox\"}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.mailboxes.oak_box",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

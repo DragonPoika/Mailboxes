@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:container",
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "furnace",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_custom_data",
+                      "tag": "{replace_mailbox:1b,mailbox:\"warped_box\"}"
+                    },
+                    {
+                      "function": "minecraft:set_name",
+                      "name": "{\"text\":\"warped Mailbox\"}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.mailboxes.warped_box",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
