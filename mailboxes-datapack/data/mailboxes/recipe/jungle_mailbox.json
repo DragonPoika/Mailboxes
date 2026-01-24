@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"jungle_box\"",
+          "item": "\"jungle_mailbox\"",
           "replace": true
         }
       },

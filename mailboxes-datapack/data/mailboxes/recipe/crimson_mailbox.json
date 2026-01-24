@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"crimson_box\"",
+          "item": "\"crimson_mailbox\"",
           "replace": true
         }
       },

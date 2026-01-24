@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"warped_box\"",
+          "item": "\"warped_mailbox\"",
           "replace": true
         }
       },

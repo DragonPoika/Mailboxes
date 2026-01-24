@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"mangrove_box\"",
+          "item": "\"mangrove_mailbox\"",
           "replace": true
         }
       },

@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"birch_box\"",
+          "item": "\"birch_mailbox\"",
           "replace": true
         }
       },

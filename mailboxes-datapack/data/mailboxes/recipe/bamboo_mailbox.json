@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"bamboo_box\"",
+          "item": "\"bamboo_mailbox\"",
           "replace": true
         }
       },

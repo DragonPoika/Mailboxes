@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"oak_box\"",
+          "item": "\"oak_mailbox\"",
           "replace": true
         }
       },

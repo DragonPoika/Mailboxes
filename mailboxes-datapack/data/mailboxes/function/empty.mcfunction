@@ -52,6 +52,7 @@ execute if score @s mailboxes.itemcount matches 16 run data remove entity @s dat
 execute if entity @s[tag=!empty_fully] run item replace entity @p[distance=..6,tag=mailboxes.this_sneaking] weapon.mainhand from entity @n[type=armor_stand,tag=mailbox_remove] weapon.mainhand
 scoreboard players remove @n[type=interaction,tag=mailboxes.interaction] mailboxes.itemcount 1
 scoreboard players remove @s mailboxes.itemcount 1
+particle flame ~ ~1.5 ~
 execute if score @s[tag=empty_fully] mailboxes.itemcount matches 1.. run function mailboxes:empty
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{mailbox_remove:1b}}}}]
 kill @e[type=armor_stand,tag=mailbox_remove]

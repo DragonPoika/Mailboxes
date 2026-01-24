@@ -18,7 +18,7 @@ scoreboard players add @s mailboxes.hit 1
 execute if score @s mailboxes.hit matches 3.. as @n[type=item_display,tag=mailboxes.display] at @s run function mailboxes:break
 execute if score @s mailboxes.hit matches 3.. if score @s mailboxes.itemcount matches 1.. run tag @n[type=marker,tag=mailboxes.storage] add empty_fully
 execute if score @s mailboxes.hit matches 3.. if score @s mailboxes.itemcount matches 1.. as @n[type=marker,tag=mailboxes.storage] at @s run function mailboxes:empty
-execute if score @s mailboxes.hit matches 3.. unless score @s mailboxes.itemcount matches 1.. run kill @n[type=marker,tag=mailboxes.storage]
+execute if score @s mailboxes.hit matches 3.. unless score @s mailboxes.itemcount matches 1.. run kill @n[type=marker,tag=mailboxes.storage,tag=empty_fully]
 execute if score @s mailboxes.hit matches 3.. if block ~ ~ ~-1 piston[extended=true,facing=south] run setblock ~ ~ ~ piston_head[facing=south]
 execute if score @s mailboxes.hit matches 3.. if block ~ ~ ~1 piston[extended=true,facing=north] run setblock ~ ~ ~ piston_head[facing=north]
 execute if score @s mailboxes.hit matches 3.. if block ~-1 ~ ~ piston[extended=true,facing=east] run setblock ~ ~ ~ piston_head[facing=east]
@@ -28,5 +28,5 @@ execute if score @s mailboxes.hit matches 3.. if block ~ ~1 ~ piston[extended=tr
 execute if score @s mailboxes.hit matches 3.. run kill @s
 
 playsound minecraft:entity.armor_stand.hit block @a ~ ~ ~ 1 1
-
+particle happy_villager ~ ~1.5 ~
 data remove entity @s attack

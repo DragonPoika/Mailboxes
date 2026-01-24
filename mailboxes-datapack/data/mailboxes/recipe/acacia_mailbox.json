@@ -16,7 +16,7 @@
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"acacia_box\"",
+          "item": "\"acacia_mailbox\"",
           "replace": true
         }
       },

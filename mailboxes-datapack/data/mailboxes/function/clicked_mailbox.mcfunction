@@ -10,4 +10,4 @@ playsound mailboxes:block.mailboxes.put_in block @a ~ ~ ~ 1 1
 tag @a remove mailboxes.this
 tag @s add mailboxes.notifi
 
-execute if entity @s[scores={mailboxes.mail_put=256}] run advancement grant @s only mailboxes:postman
+execute if entity @s[scores={mailboxes.mail_put=256}] run advancement grant @s only mailboxes:survival/postman
