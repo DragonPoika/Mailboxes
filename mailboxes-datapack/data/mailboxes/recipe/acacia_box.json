@@ -1,26 +1,25 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "---",
-      "DOD",
-      " I "
-    ],
-    "key": {
-      "-": {
-        "item": "minecraft:acacia_slab"
-      },
-      "D": {
-        "item": "minecraft:acacia_planks"
-      },
-      "O": {
-        "item": "minecraft:chest"
-      },
-      "I": {
-        "item": "minecraft:acacia_fence"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "---",
+    "DOD",
+    " I "
+  ],
+  "key": {
+    "-": "minecraft:acacia_slab",
+    "D": "minecraft:acacia_planks",
+    "O": "minecraft:chest",
+    "I": "minecraft:acacia_fence"
+  },
+  "result": {
+    "id": "minecraft:blast_furnace",
+    "components": {
+      "minecraft:custom_data": {
+        "mailboxes": {
+          "item": "\"acacia_box\"",
+          "replace": true
+        }
       }
-    },
-    "result": {
-      "item": "minecraft:knowledge_book"
     }
   }
-  
+}
