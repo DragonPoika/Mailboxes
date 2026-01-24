@@ -1,7 +1,12 @@
 {
-  "id": "mailboxes",
   "pack": {
-    "pack_format": 26,
-    "description": "§dAdds decorative mailboxes for storing mail"
+    "description": [
+      {
+        "text": "Adds decorative mailboxes\n",
+        "color": "#e9bde5"
+      }
+    ],
+    "min_format": 75,
+    "max_format": 75
   }
 }
