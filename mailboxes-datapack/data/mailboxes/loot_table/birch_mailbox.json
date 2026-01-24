@@ -14,14 +14,15 @@
               "components": {
                 "minecraft:custom_data": {
                   "mailboxes": {
-                    "item": "\"acacia_box\"",
+                    "type": "birch",
                     "replace": true
                   }
                 },
                 "minecraft:custom_name": {
-                  "translate": "item.mailboxes.acacia_box",
+                  "translate": "item.mailboxes.birch_mailbox",
                   "italic": false
-                }
+                },
+                "item_model": "mailboxes:birch_mailbox"
               }
             }
           ]

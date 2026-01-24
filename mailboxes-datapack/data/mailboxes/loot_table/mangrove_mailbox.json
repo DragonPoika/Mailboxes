@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blast_furnace",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "mailboxes": {
+                    "type": "mangrove",
+                    "replace": true
+                  }
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.mailboxes.mangrove_mailbox",
+                  "italic": false
+                },
+                "item_model": "mailboxes:mangrove_mailbox"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

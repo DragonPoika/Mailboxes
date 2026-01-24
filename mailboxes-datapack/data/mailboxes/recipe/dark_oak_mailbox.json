@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "---",
+    "DOD",
+    " I "
+  ],
+  "key": {
+    "-": "minecraft:dark_oak_slab",
+    "D": "minecraft:dark_oak_planks",
+    "O": "minecraft:chest",
+    "I": "minecraft:dark_oak_fence"
+  },
+  "result": {
+    "id": "minecraft:blast_furnace",
+    "components": {
+      "minecraft:custom_data": {
+        "mailboxes": {
+          "item": "\"dark_oak_box\"",
+          "replace": true
+        }
+      },
+      "minecraft:custom_name": {
+        "translate": "item.mailboxes.dark_oak_mailbox",
+        "italic": false
+      }
+    }
+  }
+}

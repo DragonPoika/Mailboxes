@@ -6,22 +6,22 @@
     " I "
   ],
   "key": {
-    "-": "minecraft:acacia_slab",
-    "D": "minecraft:acacia_planks",
+    "-": "minecraft:birch_slab",
+    "D": "minecraft:birch_planks",
     "O": "minecraft:chest",
-    "I": "minecraft:acacia_fence"
+    "I": "minecraft:birch_fence"
   },
   "result": {
     "id": "minecraft:blast_furnace",
     "components": {
       "minecraft:custom_data": {
         "mailboxes": {
-          "item": "\"acacia_box\"",
+          "item": "\"birch_box\"",
           "replace": true
         }
       },
       "minecraft:custom_name": {
-        "translate": "item.mailboxes.acacia_box",
+        "translate": "item.mailboxes.birch_mailbox",
         "italic": false
       }
     }

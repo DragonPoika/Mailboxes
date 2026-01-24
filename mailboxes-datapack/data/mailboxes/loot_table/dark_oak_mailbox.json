@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blast_furnace",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "mailboxes": {
+                    "type": "dark_oak",
+                    "replace": true
+                  }
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.mailboxes.dark_oak_mailbox",
+                  "italic": false
+                },
+                "item_model": "mailboxes:dark_oak_mailbox"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

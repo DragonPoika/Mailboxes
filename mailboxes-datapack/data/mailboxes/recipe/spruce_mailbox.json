@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "---",
+    "DOD",
+    " I "
+  ],
+  "key": {
+    "-": "minecraft:spruce_slab",
+    "D": "minecraft:spruce_planks",
+    "O": "minecraft:chest",
+    "I": "minecraft:spruce_fence"
+  },
+  "result": {
+    "id": "minecraft:blast_furnace",
+    "components": {
+      "minecraft:custom_data": {
+        "mailboxes": {
+          "item": "\"spruce_box\"",
+          "replace": true
+        }
+      },
+      "minecraft:custom_name": {
+        "translate": "item.mailboxes.spruce_mailbox",
+        "italic": false
+      }
+    }
+  }
+}
