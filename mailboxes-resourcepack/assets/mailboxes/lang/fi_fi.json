@@ -1,0 +1,32 @@
+{
+    "pack.mailboxes": "Mailboxes",
+    "lore.mailboxes.tooltip": "\ua000",
+
+    "chat.mailboxes.load": "Thanks for downloading §d§lMailboxes§r!\nIf you need help, check these links:\n",
+    "chat.mailboxes.dot": "§r ・",
+    "chat.mailboxes.links.discord": " §nDiscord\n",
+    "chat.mailboxes.links.smithed": " §nSmithed\n",
+    "chat.mailboxes.links.github": " §nGithub\n",
+
+    "advancements.mailboxes": "Mailboxes",
+    "advancements.mailboxes.description": "Adds different kinds of Mailboxes\n\n\n\n\n\n%s",
+
+    "advancements.mailboxes.placed_mailbox": "Don't shoot the Messenger!",
+    "advancements.mailboxes.placed_mailbox.description": "Place a Mailbox of any type",
+    "advancements.mailboxes.got_mail": "You've got mail!",
+    "advancements.mailboxes.got_mail.description": "Get mail in your Mailbox",
+    "advancements.mailboxes.postman": "Postman",
+    "advancements.mailboxes.postman.description": "Fill an entire Mailbox with mail.",
+
+    "item.mailboxes.acacia_box": "Acacia Mailbox",
+    "item.mailboxes.bamboo_box": "Bamboo Mailbox",
+    "item.mailboxes.birch_box": "Birch Mailbox",
+    "item.mailboxes.cherry_box": "Cherry Mailbox",
+    "item.mailboxes.crimson_box": "Crimson Mailbox",
+    "item.mailboxes.dark_oak_box": "Dark Oak Mailbox",
+    "item.mailboxes.jungle_box": "Jungle Mailbox",
+    "item.mailboxes.mangrove_box": "Mangrove Mailbox",
+    "item.mailboxes.oak_box": "Oak Mailbox",
+    "item.mailboxes.spruce_box": "Spruce Mailbox",
+    "item.mailboxes.warped_box": "Warped Mailbox"
+}

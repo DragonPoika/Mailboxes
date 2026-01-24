@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:318002}"
+      "id": "acacia_boat",
+      "components": {
+        "item_model": "mailboxes:pale_oak_mailbox"
+      }
     },
     "title": {
       "translate": "advancements.mailboxes.got_mail"
@@ -11,7 +13,7 @@
       "translate": "advancements.mailboxes.got_mail.description"
     }
   },
-  "parent": "mailboxes:placed_mailbox",
+  "parent": "mailboxes:survival/placed_mailbox",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible",

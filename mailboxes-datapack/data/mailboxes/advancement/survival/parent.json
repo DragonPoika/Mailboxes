@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:318001}"
+      "id": "acacia_boat",
+      "components": {
+        "item_model": "mailboxes:oak_mailbox"
+      }
     },
     "title": {
       "translate": "advancements.mailboxes"
@@ -11,7 +13,7 @@
       "translate": "advancements.mailboxes.description",
       "with": [
         {
-          "text": "ꀀ",
+          "text": "\ua001",
           "font": "mailboxes:recipe",
           "color": "white"
         }
