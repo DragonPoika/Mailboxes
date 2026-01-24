@@ -48,7 +48,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"mailbox_interaction\"]}",
+              "nbt": "{Tags:[\"mailboxes.interaction\"]}",
               "distance": {
                 "absolute": {
                   "min": 0,

@@ -1,0 +1,1 @@
+$kill @n[type=item,distance=..2,nbt={Item:{id:"minecraft:$(type)_fence",count:1}}]

@@ -19,6 +19,10 @@
           "item": "\"acacia_box\"",
           "replace": true
         }
+      },
+      "minecraft:custom_name": {
+        "translate": "item.mailboxes.acacia_box",
+        "italic": false
       }
     }
   }

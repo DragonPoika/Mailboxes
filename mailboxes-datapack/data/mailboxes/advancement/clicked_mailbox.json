@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "requirement": {
+    "y": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": [
@@ -10,16 +10,10 @@
             "predicate": {
               "flags": {
                 "is_sneaking": false
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
+              },
               "equipment": {
                 "mainhand": {
-                  "tag": "mailboxes:allowed"
+                  "items": "#mailboxes:allowed"
                 }
               }
             }
@@ -32,7 +26,7 @@
             "scores": {
               "mailboxes.itemcount": {
                 "min": 0,
-                "max": 3
+                "max": 2
               }
             }
           },
@@ -40,13 +34,18 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"mailbox_interaction\"]}"
+              "nbt": "{Tags:[\"mailboxes.interaction\"]}"
             }
           }
         ]
       }
     }
   },
+  "requirements": [
+    [
+      "y"
+    ]
+  ],
   "rewards": {
     "function": "mailboxes:clicked_mailbox"
   }

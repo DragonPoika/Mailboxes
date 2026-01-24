@@ -8,7 +8,7 @@ execute as @s[predicate=mailboxes:is_box/mangrove,tag=!no_drop] run loot spawn ~
 execute as @s[predicate=mailboxes:is_box/mangrove] run particle minecraft:block{block_state:"minecraft:mangrove_planks"} ~ ~0.25 ~ 0.25 0.25 0.25 0 20
 execute as @s[predicate=mailboxes:is_box/jungle,tag=!no_drop] run loot spawn ~ ~ ~ loot mailboxes:jungle_box
 execute as @s[predicate=mailboxes:is_box/jungle] run particle minecraft:block{block_state:"minecraft:jungle_planks"} ~ ~0.25 ~ 0.25 0.25 0.25 0 20
-execute as @s[predicate=mailboxes:is_box/acacia,tag=!no_drop] run loot spawn ~ ~ ~ loot mailboxes:acacia_box
+execute as @s[predicate=mailboxes:is_box/acacia,tag=!no_drop] run loot spawn ~ ~ ~ loot mailboxes:acacia_mailbox
 execute as @s[predicate=mailboxes:is_box/acacia] run particle minecraft:block{block_state:"minecraft:acacia_planks"} ~ ~0.25 ~ 0.25 0.25 0.25 0 20
 execute as @s[predicate=mailboxes:is_box/crimson,tag=!no_drop] run loot spawn ~ ~ ~ loot mailboxes:crimson_box
 execute as @s[predicate=mailboxes:is_box/crimson] run particle minecraft:block{block_state:"minecraft:crimson_planks"} ~ ~0.25 ~ 0.25 0.25 0.25 0 20
@@ -21,5 +21,5 @@ execute as @s[predicate=mailboxes:is_box/warped] run particle minecraft:block{bl
 execute as @s[predicate=mailboxes:is_box/bamboo,tag=!no_drop] run loot spawn ~ ~ ~ loot mailboxes:bamboo_box
 execute as @s[predicate=mailboxes:is_box/bamboo] run particle minecraft:block{block_state:"minecraft:bamboo_planks"} ~ ~0.25 ~ 0.25 0.25 0.25 0 20
 data modify entity @n[type=item,tag=drop_item] Item set from entity @s item
-execute as @n[type=interaction,tag=mailbox_interaction] if entity @s[scores={mailboxes.settings=1..2}] run setblock ~ ~ ~ air
+execute as @n[type=interaction,tag=mailboxes.interaction] if entity @s[scores={mailboxes.settings=1..2}] run setblock ~ ~ ~ air
 kill @s
