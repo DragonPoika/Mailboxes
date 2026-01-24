@@ -1,38 +1,27 @@
 {
-  "type": "minecraft:advancement_reward",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:furnace",
+          "name": "minecraft:blast_furnace",
+          "weight": 1,
+          "quality": 1,
           "functions": [
             {
-              "function": "minecraft:set_contents",
-              "component": "minecraft:container",
-              "entries": [
-                {
-                  "type": "minecraft:item",
-                  "name": "furnace",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_custom_data",
-                      "tag": "{replace_mailbox:1b,mailbox:\"acacia_box\"}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": "Acacia Mailbox"
-                    }
-                  ]
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "mailboxes": {
+                    "item": "\"acacia_box\"",
+                    "replace": true
+                  }
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.mailboxes.acacia_box",
+                  "italic": false
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.mailboxes.acacia_box",
-                "italic": false
               }
             }
           ]
