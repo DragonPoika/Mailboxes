@@ -7,7 +7,7 @@
     "chat.mailboxes.links.smithed": " §nSmithed\n",
     "chat.mailboxes.links.github": " §nGithub\n",
     "advancements.mailboxes": "Mailboxes",
-    "advancements.mailboxes.description": "Fügt einige Arten von Briefkasten hinzu\n\n\n\n\n\n%s",
+    "advancements.mailboxes.description": "Fügt einige Arten von Briefkasten hinzu",
     "advancements.mailboxes.placed_mailbox": "Don't shoot the Messenger!",
     "advancements.mailboxes.placed_mailbox.description": "Platziere einen Briefkasten.",
     "advancements.mailboxes.got_mail": "You've got mail!",
@@ -22,6 +22,7 @@
     "item.mailboxes.dark_oak_mailbox": "Schwarzeichenholzbriefkasten",
     "item.mailboxes.jungle_mailbox": "Tropenholzbriefkasten",
     "item.mailboxes.mangrove_mailbox": "Mangrovenholzbriefkasten",
+    "item.mailboxes.pale_oak_box": "Pale Oak Mailbox",
     "item.mailboxes.oak_mailbox": "Eichenholzbriefkasten",
     "item.mailboxes.spruce_mailbox": "Fichtenholzbriefkasten",
     "item.mailboxes.warped_mailbox": "Wirrbriefkasten"

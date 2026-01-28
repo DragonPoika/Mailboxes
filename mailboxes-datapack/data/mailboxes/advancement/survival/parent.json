@@ -10,20 +10,12 @@
       "translate": "advancements.mailboxes"
     },
     "description": {
-      "translate": "advancements.mailboxes.description",
-      "with": [
-        {
-          "text": "\ua001",
-          "font": "mailboxes:recipe",
-          "color": "white"
-        }
-      ]
+      "translate": "advancements.mailboxes.description"
     },
-    "background": "minecraft:textures/block/oak_planks.png",
+    "background": "minecraft:block/oak_planks",
     "frame": "task",
     "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": false
+    "announce_to_chat": false
   },
   "criteria": {
     "requirement": {

@@ -3,7 +3,7 @@
     "icon": {
       "id": "acacia_boat",
       "components": {
-        "item_model": "mailboxes:pale_oak_mailbox"
+        "item_model": "mailboxes:jungle_mailbox"
       }
     },
     "title": {

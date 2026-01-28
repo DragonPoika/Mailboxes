@@ -32,6 +32,15 @@
       "chars": [
         "\ua002"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mailboxes:gui/icons/modrinth.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ua003"
+      ]
     }
   ]
 }

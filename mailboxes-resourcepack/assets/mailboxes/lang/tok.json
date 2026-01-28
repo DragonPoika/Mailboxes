@@ -1,0 +1,32 @@
+{
+    "pack.mailboxes": "Poki toki",
+    "lore.mailboxes.tooltip": "\ua000",
+
+    "chat.mailboxes.load": "pona tan ni: sina kama jo e lipu pi §d§lPoki toki§r!\nSina wile e pona la o lukin e linja nimi ni:\n",
+    "chat.mailboxes.dot": "§r ・",
+    "chat.mailboxes.links.discord": " §nDiscord\n",
+    "chat.mailboxes.links.smithed": " §nSmithed\n",
+    "chat.mailboxes.links.github": " §nGithub\n",
+
+    "advancements.mailboxes": "Poki toki",
+    "advancements.mailboxes.description": "O pana e toki poki sin tawa musi",
+
+    "advancements.mailboxes.placed_mailbox": "O pakala ala e jan toki!",
+    "advancements.mailboxes.placed_mailbox.description": "O pali e nimi poki toki",
+    "advancements.mailboxes.got_mail": "Sina jo e lipu!",
+    "advancements.mailboxes.got_mail.description": "O pana e lipu tawa poki toki sina",
+    "advancements.mailboxes.postman": "Jan li pana e lip",
+    "advancements.mailboxes.postman.description": "O ken e ni: poki toki li ken ala kama jo e ijo sin.",
+
+    "item.mailboxes.acacia_mailbox": "Poki toki pi kasi seli",
+    "item.mailboxes.bamboo_mailbox": "Poki toki pi kasi palisa",
+    "item.mailboxes.birch_mailbox": "Poki toki pi kasi jelo",
+    "item.mailboxes.cherry_mailbox": "Poki toki pi kasi suwi",
+    "item.mailboxes.crimson_mailbox": "Poki toki pi soko loje",
+    "item.mailboxes.dark_oak_mailbox": "Poki toki pi kasi pimeja",
+    "item.mailboxes.jungle_mailbox": "Poki toki pi kasi suli",
+    "item.mailboxes.mangrove_mailbox": "Poki toki pi kasi telo",
+    "item.mailboxes.oak_mailbox": "Poki toki pi kasi kili",
+    "item.mailboxes.spruce_mailbox": "Poki toki pi kasi lete",
+    "item.mailboxes.warped_mailbox": "Poki toki pi soko laso"
+}
