@@ -15,10 +15,11 @@ execute unless block ~ ~ ~ #minecraft:fences if block ~ ~1 ~ sticky_piston[exten
 execute on attacker if entity @s[gamemode=creative] run scoreboard players set @n[type=interaction,tag=mailboxes.interaction] mailboxes.hit 2
 execute on attacker if entity @s[gamemode=creative] run tag @n[type=item_display,tag=mailboxes.display] add no_drop
 scoreboard players add @s mailboxes.hit 1
+say @s hit
 execute if score @s mailboxes.hit matches 3.. as @n[type=item_display,tag=mailboxes.display] at @s run function mailboxes:break
 execute if score @s mailboxes.hit matches 3.. if score @s mailboxes.itemcount matches 1.. run tag @n[type=marker,tag=mailboxes.storage] add empty_fully
 execute if score @s mailboxes.hit matches 3.. if score @s mailboxes.itemcount matches 1.. as @n[type=marker,tag=mailboxes.storage] at @s run function mailboxes:empty
-execute if score @s mailboxes.hit matches 3.. unless score @s mailboxes.itemcount matches 1.. run kill @n[type=marker,tag=mailboxes.storage,tag=empty_fully]
+execute if score @s mailboxes.hit matches 3.. unless score @s mailboxes.itemcount matches 1.. run kill @n[type=marker,tag=mailboxes.storage]
 execute if score @s mailboxes.hit matches 3.. if block ~ ~ ~-1 piston[extended=true,facing=south] run setblock ~ ~ ~ piston_head[facing=south]
 execute if score @s mailboxes.hit matches 3.. if block ~ ~ ~1 piston[extended=true,facing=north] run setblock ~ ~ ~ piston_head[facing=north]
 execute if score @s mailboxes.hit matches 3.. if block ~-1 ~ ~ piston[extended=true,facing=east] run setblock ~ ~ ~ piston_head[facing=east]

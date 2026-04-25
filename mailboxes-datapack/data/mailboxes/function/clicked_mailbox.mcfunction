@@ -1,5 +1,6 @@
 advancement revoke @s only mailboxes:clicked_mailbox
 tag @s add mailboxes.this
+execute as @e[type=interaction,tag=mailboxes.interaction,distance=..6] if data entity @s interaction at @s run particle witch ~ ~1.5 ~
 execute as @e[type=interaction,tag=mailboxes.interaction,distance=..6] if data entity @s interaction at @s run scoreboard players add @s mailboxes.itemcount 1
 execute as @e[type=interaction,tag=mailboxes.interaction,distance=..6] if data entity @s interaction at @s run scoreboard players add @p[tag=mailboxes.this] mailboxes.mail_put 1
 execute as @e[type=interaction,tag=mailboxes.interaction,distance=..6] if data entity @s interaction at @s run scoreboard players add @n[type=marker,tag=mailboxes.storage] mailboxes.itemcount 1

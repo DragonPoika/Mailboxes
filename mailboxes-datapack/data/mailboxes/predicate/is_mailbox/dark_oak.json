@@ -5,7 +5,7 @@
     "slots": {
       "contents": {
         "predicates": {
-          "minecraft:custom_data": "{mailbox:\"dark_oak_mailbox\"}"
+          "minecraft:custom_data": {"mailboxes":{"type":"dark_oak"}}
         }
       }
     }

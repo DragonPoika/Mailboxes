@@ -20,6 +20,6 @@ execute as @s[predicate=mailboxes:is_mailbox/warped,tag=!no_drop] run loot spawn
 execute as @s[predicate=mailboxes:is_mailbox/warped] run particle minecraft:block{block_state:"minecraft:warped_planks"} ~ ~0.25 ~ 0.25 0.25 0.25 0 20
 execute as @s[predicate=mailboxes:is_mailbox/bamboo,tag=!no_drop] run loot spawn ~ ~ ~ loot mailboxes:bamboo_mailbox
 execute as @s[predicate=mailboxes:is_mailbox/bamboo] run particle minecraft:block{block_state:"minecraft:bamboo_planks"} ~ ~0.25 ~ 0.25 0.25 0.25 0 20
-data modify entity @n[type=item,tag=drop_item] Item set from entity @s item
+#This did nothing # data modify entity @n[type=item,tag=drop_item] Item set from entity @s item
 execute as @n[type=interaction,tag=mailboxes.interaction] if entity @s[scores={mailboxes.settings=1..2}] run setblock ~ ~ ~ air
 kill @s
